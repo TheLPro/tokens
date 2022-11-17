@@ -1,0 +1,15 @@
+name: TokenSubmision
+version: '${project.version}'
+main: me.thelpro.Tokensubmission
+api-version: 1.19
+authors: [ TheLPro ]
+description: Token Submission
+commands:
+  token:
+    description: Submits / imports a token
+    usage: /<command> <submit/import> <amount-submit-only)
+  testSaving:
+    description: Test
+permissions:
+  token.blacklist:
+    description: Not being able to preform any token commands.
