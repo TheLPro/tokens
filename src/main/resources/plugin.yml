@@ -1,0 +1,22 @@
+name: TokenSubmision
+version: '${project.version}'
+main: me.thelpro.Tokensubmission
+api-version: 1.19
+authors: [ TheLPro ]
+description: Token Submission plugin for Airgene Factions
+depend:
+  - PlaceholderAPI
+commands:
+  token:
+    description: Submits / imports a token
+    usage: /token <import/submit/info/help>
+permissions:
+  token.import:
+    description: Be able to import tokens.
+  token.submit:
+    description: Be able to submit tokens.
+  token.loginclear:
+    description: Get cleared of tokens when you join.
+    default: not op
+  token.bypassplace:
+    description: Be able to bypass the anti token place.
